@@ -1,0 +1,47 @@
+.wrapper{
+  width:750px;
+  height:450px;
+  border:1px solid salmon;
+  margin:auto;
+  border-top-left-radius:20px;
+  border-top-right-radius:20px;
+  background-color:salmon;
+}
+
+.nav-link::first-letter{
+  text-transform:capitalize;
+}
+
+button{
+  border-radius:20px !important;
+  background-color:seagreen !important;
+}
+
+h1::first-letter{
+  text-transform:capitalize;
+}
+
+@media(max-width: 576px){
+    h1{
+     font-size:20px !important;
+    }
+    .btn.btn-success.w-100{
+       width:40% !important;
+       margin-left:30% !important;
+    }
+    #btn-lorem-ipsum{
+      margin-left:33% !important;
+    }
+    .img-fluid{
+      width:100% !important;
+    }
+    .wrapper{
+       width:100% !important;
+    }
+}
+
+@media(max-width: 768px){
+    .wrapper{
+       margin-left:-1% !important;
+    }
+}
